@@ -63,16 +63,41 @@ body{
 .prodImgBorder {
     border: 3px solid #00a8e1;
 }
+
+.prodSpecsHeader {
+    color: black;
+	font-size: 14px;
+    font-weight: 800;
+	background: #1aeae0;
+}
 /**/
 .contactInput {
 	height: 24px;
 	width: 300px;
 	color: blue;
 	font-size: 14px;
+	text-transform: capitalize;
 }
 
 .contactMemo {
 	height: 300px;
 	width: 300px;
+	text-transform: capitalize;
 }
+
+.inputEmail {
+	height: 24px;
+	width: 300px;
+	color: blue;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.inputEmail:focus {
+	height: 24px;
+	width: 300px;
+	color: red;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
 /**/

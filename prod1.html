@@ -9,17 +9,21 @@
 	
 	<body>
 		<!-- head -->
-		<ul class='menu'>
-			<li>
-				<a href='index.html'>Главная</a>
-			</li>
-			<li>
-				<a href='catalog.html'>Каталог</a>
-			</li>
-			<li>
-				<a href='contacts.html'>Контакты</a>
-			</li>
-		</ul>
+		<div class='header'>
+			<img src='./img/logo.png' width='50' height='50'>
+		
+			<ul class='menu'>
+				<li>
+					<a href='index.html'>Главная</a>
+				</li>
+				<li>
+					<a href='catalog.html'>Каталог</a>
+				</li>
+				<li>
+					<a href='contacts.html'>Контакты</a>
+				</li>
+			</ul>
+		</div>
 		
 		<hr>
 		
@@ -28,12 +32,18 @@
 		
 		<p align='center' > <a href="./img/prod1.jpg" target="_blank" style="display: inline-block; width: 50px; height; 50px; background-image: url('./img/prod1.jpg');"> <img class='prodImgBorder' src='./img/prod1.jpg'> </a> </p>
 		
-		<p class='prodSubHead'> «Описание товара» </p>
-		<p class='prodLitDescr'> Очень хороший товар. </p>
+		<div class='prodSubHead'> 
+			«Описание товара» 
+		</div>
+		<div class='prodLitDescr'> 
+			Очень хороший товар. 
+		</div>
 		
 		<br>
 		
-		<p class='prodSubHead'> «Характеристики товара» </p>
+		<div class='prodSubHead'> 
+			«Характеристики товара» 
+		</div>	
 		<ul class='prodList'>
 			<li>
 				Новый
@@ -48,12 +58,51 @@
 		
 		<br>
 		
-		<p class='prodSubHead'> «Подробное описание товара» </p>
-		<p class='prodBigDescr'> Увидав этот товар единожды, вы не сможете больше спокойно спать. Вы будите терзаться в мучениях, пока не купите его у нас. </p>
+		<div class='prodSubHead'> 
+			«Подробное описание товара» 
+		</div>
+		<div class='prodBigDescr'> 
+			Увидав этот товар единожды, вы не сможете больше спокойно спать. Вы будите терзаться в мучениях, пока не купите его у нас. 
+		</div>
+		
+		<br>
+		
+		<div class='prodSpecsHeader'> 
+			«технические характеристики»
+		</div>
+		
+		<table border='1'>
+			<tr>
+				<td>
+					Спека 1
+				</td>
+				<td>
+					12
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Спека 2
+				</td>
+				<td>
+					-33
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Спека 3
+				</td>
+				<td>
+					154
+				</td>
+			</tr>
+		</table>
 		
 		<!-- footer -->
-		<hr>
-		
-		<p> © «Все права защищены» </p>
+		<div class='footer'>
+			<hr>
+			
+			<p> © «Все права защищены» </p>
+		</div>
 	</body>
 </html>

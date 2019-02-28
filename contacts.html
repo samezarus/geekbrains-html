@@ -9,35 +9,68 @@
 	
 	<body>
 		<!-- head -->
-		<ul class='menu'>
-			<li>
-				<a href='index.html'>Главная</a>
-			</li>
-			<li>
-				<a href='catalog.html'>Каталог</a>
-			</li>
-			<li>
-				<a href='contacts.html'>Контакты</a>
-			</li>
-		</ul>
+		<div class='header'>
+			<img src='./img/logo.png' width='50' height='50'>
+		
+			<ul class='menu'>
+				<li>
+					<a href='index.html'>Главная</a>
+				</li>
+				<li>
+					<a href='catalog.html'>Каталог</a>
+				</li>
+				<li>
+					<a href='contacts.html'>Контакты</a>
+				</li>
+			</ul>
+		</div>
 		
 		<hr>
 		
 		<!-- content -->
-		<p> <h1> «Напишите нам» </h1> </p>
+		<div> 
+			<h1> 
+				«Напишите нам» 
+			</h1> 
+		</div>
 		
-		<p> Имя <input class='contactInput' type="text"> </p>
-		<p> Email <input class='contactInput' type="text"> </p>
-		<p> Тема <input class='contactInput' type="text"> </p>
+		<div> 
+			Имя 
+			<input class='contactInput' type="text"> 
+		</div>
+		<div class='.contactInput'> 
+			Email 
+			<input class='inputEmail' type="text"> 
+		</div>
+		<div> 
+			Тема 
+			<input class='contactInput' type="text"> 
+		</div>
 		
-		<p> Сообщение <br> <textarea class='contactMemo' name="comment"></textarea> </p>
+		<div> 
+			Сообщение 
+			<br> 
+			<textarea class='contactMemo' name="comment"></textarea> 
+		</div>
 		
-		<p> <input type="submit" value="Отправить"> </p>
+		<div> 
+			<input type="submit" value="Отправить"> 
+		</div>
 		
-		<p> <h2> «Адрес» </h2> </p>
-		<p> Контактный номер телефона: +7 495 123 4567 </p>
-		<p> Адрес: Россия, Приморский край, г. Владивосток </p>
-		<p> Email: xxx@xxx.com </p>
+		<div> 
+			<h2> 
+				«Адрес» 
+			</h2> 
+		</div>
+		<div> 
+			Контактный номер телефона: +7 495 123 4567 
+		</div>
+		<div> 
+			Адрес: Россия, Приморский край, г. Владивосток 
+		</div>
+		<div> 
+			Email: xxx@xxx.com 
+		</div>
 		
 		<script 
 			type="text/javascript" 
@@ -46,8 +79,10 @@
 		</script>
 		
 		<!-- footer -->
-		<hr>
-		
-		<p> © «Все права защищены» </p>
+		<div class='footer'>
+			<hr>
+			
+			<p> © «Все права защищены» </p>
+		</div>
 	</body>
 </html>
