@@ -1,0 +1,78 @@
+
+/**/
+body{
+    background-color: #f8f8f8;
+} 
+/**/
+.menu a {
+    font-size: 22px;
+    font-weight: bold;
+}
+.menu a:link {
+    color: #497DDD; 
+    border-bottom: 1px dashed; 
+}
+.menu a:visited {
+    color: #EF7D55;
+}
+.menu a:hover {
+    color: #154088; 
+    border-bottom: .07em solid;
+}
+.menu a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+}
+
+.menu li {
+    list-style-type: none; /*убрали маркирование списка*/
+}
+
+
+/**/
+.prodSubHead {
+    color: black;
+	font-size: 18px;
+    font-weight: 400;
+	background: #eaeaea;
+}
+
+.prodLitDescr {
+    color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.prodBigDescr {
+    color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.prodList {
+	color: red;
+	font-size: 20px;
+	font-style: bold;
+	line-height: 18px;
+	list-style-image: url(img/mark.png);
+}
+
+.prodImgBorder {
+    border: 3px solid #00a8e1;
+}
+/**/
+.contactInput {
+	height: 24px;
+	width: 300px;
+	color: blue;
+	font-size: 14px;
+}
+
+.contactMemo {
+	height: 300px;
+	width: 300px;
+}
+/**/
