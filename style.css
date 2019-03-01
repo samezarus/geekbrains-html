@@ -89,6 +89,14 @@ body{
 	list-style-image: url(img/mark.png);
 }
 
+.prodFooter{
+	
+}
+
+.prodImgConteiner {
+
+}
+
 .prodImg {
     border: 3px solid #00a8e1;
 }
@@ -99,6 +107,19 @@ body{
     font-weight: 800;
 	background: #1aeae0;
 }
+
+.prodButtonBuy {
+	
+}
+
+.prodButtonBuy:hover {
+	background-color: white;
+}
+
+.prodButtonBuy:active {
+	background-color: green;
+}
+
 /**/
 .contactInput {
 	height: 24px;
@@ -137,3 +158,14 @@ body{
 }
 
 /**/
+.catalogProdGrid {
+	display: flex;
+}
+
+.catalogProdImg {
+	
+}
+
+.catalogProdLink {
+	
+}
