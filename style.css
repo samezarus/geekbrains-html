@@ -90,7 +90,7 @@ body{
 }
 
 .prodFooter{
-	
+	display: flex;
 }
 
 .prodImgConteiner {
