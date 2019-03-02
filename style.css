@@ -3,6 +3,26 @@
 body{
     background-color: #f8f8f8;
 } 
+
+/**/
+.header{
+	height: 300px;
+}
+
+.container{
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+	height: 100px;
+	background-color: #e0f1115c;
+	text-align: right;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+
 /**/
 .menu a {
     font-size: 22px;
@@ -26,8 +46,17 @@ body{
 
 .menu li {
     list-style-type: none; /*убрали маркирование списка*/
+	display: inline;
+	padding-right: 15px;
 }
 
+.menu {
+	position: absolute;
+	left: 40px;
+	top: 0px;
+	width: 93%;
+	text-align: right;
+}
 
 /**/
 .prodSubHead {
@@ -60,7 +89,15 @@ body{
 	list-style-image: url(img/mark.png);
 }
 
-.prodImgBorder {
+.prodFooter{
+	display: flex;
+}
+
+.prodImgConteiner {
+
+}
+
+.prodImg {
     border: 3px solid #00a8e1;
 }
 
@@ -70,6 +107,19 @@ body{
     font-weight: 800;
 	background: #1aeae0;
 }
+
+.prodButtonBuy {
+	
+}
+
+.prodButtonBuy:hover {
+	background-color: white;
+}
+
+.prodButtonBuy:active {
+	background-color: green;
+}
+
 /**/
 .contactInput {
 	height: 24px;
@@ -101,3 +151,21 @@ body{
 }
 
 /**/
+.logoImg {
+	padding-left: 15px;
+	width: 50px;
+	height: 50px;
+}
+
+/**/
+.catalogProdGrid {
+	display: flex;
+}
+
+.catalogProdImg {
+	
+}
+
+.catalogProdLink {
+	
+}
